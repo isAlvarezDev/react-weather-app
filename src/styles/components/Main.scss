@@ -1,0 +1,11 @@
+@use '../variables/variables' as *;
+
+.Main {
+  max-inline-size: 1000px;
+  margin: auto;
+  padding: 20px 0;
+
+  @media only screen and (max-width: 821px) {
+    margin: 0 2rem;
+  }
+}
